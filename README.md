@@ -12,7 +12,10 @@
 ### Data Collection from pdf
 
 - Install the cli-tool [ocrmypdf](https://github.com/ocrmypdf/OCRmyPDF) to process pdf using the below command
-  Since we are using linux system run ```sudo apt install ocrmypdf```
+  Since we are using linux system run 
+  ```
+  sudo apt install ocrmypdf
+  ```
 - Install pikepdf using command line tool ```pip3 install pikepdf``` and write the below code to decrypt the file
   ```
   import pikepdf
