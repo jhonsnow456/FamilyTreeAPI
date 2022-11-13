@@ -1,0 +1,26 @@
+{
+  "name": "familytreeapi",
+  "version": "1.0.0",
+  "description": "API to get family tree of person using electoral list data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonsnow456/FamilyTreeAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonsnow456/FamilyTreeAPI/issues"
+  },
+  "homepage": "https://github.com/jhonsnow456/FamilyTreeAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20"
+  }
+}

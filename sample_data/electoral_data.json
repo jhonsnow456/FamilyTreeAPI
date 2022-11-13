@@ -1,0 +1,329 @@
+[
+  {
+    "place_id": 1,
+    "data": [
+      {
+        "id": 1,
+        "VoterId": "TRW0273011",
+        "Name": "Sebastiao Xavier Fernandes",
+        "Father Name": "Xavier Fernandes",
+        "House Number": 3,
+        "Age": 76,
+        "Gender": "MALE"
+      },
+      {
+        "id": 2,
+        "VoterId": "TRW0226530",
+        "Name": "Julie Sebastiao Fernandes",
+        "Husband Name": "Sebastiao Xavier Fernandes",
+        "House Number": 3,
+        "Age": 39,
+        "Gender": "MALE"
+      },
+      {
+        "id": 3,
+        "VoterId": "CDM3600244",
+        "Name": "Brayan Sebastiao Fernandes",
+        "Father Name": "Sebastiao Fernandes",
+        "House Number": 3,
+        "Age": 66,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 4,
+        "VoterId": "TRW0114348",
+        "Name": "Jordan Fernandes",
+        "Father Name": "Sebastiao Xavier Fernandes",
+        "House Number": 3,
+        "Age": 35,
+        "Gender": "MALE"
+      },
+      {
+        "id": 5,
+        "VoterId": "TRW0273680",
+        "Name": "Maria D'Souza",
+        "Husband Name": "Fermino D'Souza",
+        "House Number": 4,
+        "Age": 37,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 6,
+        "VoterId": "TRW0343152",
+        "Name": "Eugenia D'Souza",
+        "Father Name": "Andre D'Souza",
+        "House Number": 4,
+        "Age": 55,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 7,
+        "VoterId": "TRwo226506",
+        "Name": "Anaruzaria Andre D'Souza ",
+        "Husband Name": "Andre D'Souza  ",
+        "House Number": 4,
+        "Age": 83,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 8,
+        "VoterId": "TRwo0226589",
+        "Name": "Fermino D'Souza",
+        "Father Name": "Andre D'Souza",
+        "House Number": 4,
+        "Age": 51,
+        "Gender": "MALE"
+      },
+      {
+        "id": 9,
+        "VoterId": "CDM5406228",
+        "Name": "Wilma D'Souza",
+        "Husband Name": "Caridada D'Souza",
+        "House Number": 6,
+        "Age": 50,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 10,
+        "VoterId": "TRW0449199",
+        "Name": "Errol Mendes  ",
+        "Father Name": "Francis Mendes ",
+        "House Number": 8,
+        "Age": 20,
+        "Gender": "MALE"
+      },
+      {
+        "id": 11,
+        "VoterId": "TRW0226522",
+        "Father Name": "Methew De'Souza",
+        "House Number": 9,
+        "Age": 65,
+        "Gender": "MALE"
+      },
+      {
+        "id": 12,
+        "VoterId": "TRW0354126",
+        "Name": "Dylan Mathew Xavier D'Souza",
+        "Father Name": "Santana Caridade",
+        "House Number": 10,
+        "Age": 63,
+        "Gender": "MALE"
+      },
+      {
+        "id": 13,
+        "VoterId": "TRwo227496",
+        "Name": "Cicilie Santanjocky Mendes",
+        "Husband Name": "Santanjocky Mendes",
+        "House Number": 3,
+        "Age": 87,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 14,
+        "VoterId": "cpm5406418",
+        "Name": "Jeronimo Mendes",
+        "Father Name": "Santanjocky Mendes",
+        "House Number": 3,
+        "Age": 59,
+        "Gender": "MALE"
+      },
+      {
+        "id": 15,
+        "VoterId": "CDM5406293",
+        "Name": "Girgol Santanjocky Mendes",
+        "Father Name": "Jeronimo Mendes",
+        "House Number": 3,
+        "Age": 55,
+        "Gender": "MALE"
+      },
+      {
+        "id": 16,
+        "VoterId": "CDM5406236",
+        "Name": "Simao Santanjocky Mendes",
+        "Father Name": "Santanjocky Mendes",
+        "House Number": 3,
+        "Age": 53,
+        "Gender": "MALE"
+      },
+      {
+        "id": 17,
+        "VoterId": "TRW0403287",
+        "Name": "Josephina Jeron Mendes",
+        "Husband Name": "Jeron Mendes",
+        "House Number": 10,
+        "Age": 52,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 18,
+        "VoterId": "CDM5409321",
+        "Name": "Francis Santanjocky Mendes",
+        "Father Name": "Santanjocky Mendes",
+        "House Number": 3,
+        "Age": 51,
+        "Gender": "MALE"
+      },
+      {
+        "id": 19,
+        "VoterId": "CDM5405915",
+        "Name": "Liberata Girgol Mendes",
+        "Husband Name": "Girgol Mendes",
+        "House Number": 8,
+        "Age": 50,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 20,
+        "VoterId": "CDM5405907",
+        "Name": "Emilia Francis Mendes",
+        "Husband Name": "Francis Mendes",
+        "House Number": 8,
+        "Age": 46,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 21,
+        "VoterId": "TRW0116020",
+        "Name": "Anton Mendes",
+        "Father Name": "Santanjocky Mendes",
+        "House Number": 3,
+        "Age": 46,
+        "Gender": "MALE"
+      },
+      {
+        "id": 22,
+        "VoterId": "TRW0312173",
+        "Name": "Jessie Mendes ",
+        "Father Name": "Jeronimo Mendes",
+        "House Number": 3,
+        "Age": 30,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 23,
+        "VoterId": "TRW0362376",
+        "Name": "Joel Mendes",
+        "Father Name": "Jeronimo Mendes",
+        "House Number": 3,
+        "Age": 24,
+        "Gender": "MALE"
+      },
+      {
+        "id": 24,
+        "VoterId": "CDM5400494",
+        "Name": "Anapavalin Rodrigues",
+        "Husband Name": "Simao Mendes",
+        "House Number": 8,
+        "Age": 46,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 25,
+        "VoterId": "CDM0124008",
+        "Name": "Gabriel Diago Mendes",
+        "Father Name": "Diago Mendes",
+        "House Number": 10,
+        "Age": 58,
+        "Gender": "MALE"
+      },
+      {
+        "id": 26,
+        "VoterId": "CDM0120014",
+        "Name": "Claudin Gabriel Mendes",
+        "Husband Name": "Diago Mendes",
+        "House Number": 10,
+        "Age": 53,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 27,
+        "VoterId": "TRW0340745",
+        "Name": "Joaquim Mendes",
+        "Father Name": "Gabriel Mendes",
+        "House Number": 10,
+        "Age": 27,
+        "Gender": "MALE"
+      },
+      {
+        "id": 28,
+        "VoterId": "TRW0378406",
+        "Name": "Stanely Mendes",
+        "Father Name": "Simao Mendes",
+        "House Number": 10,
+        "Age": 22,
+        "Gender": "MALE"
+      },
+      {
+        "id": 29,
+        "VoterId": "CDM5427810",
+        "Name": "Xavier D'Souza",
+        "Father Name": "Alex D'Souza",
+        "House Number": 20,
+        "Age": 40,
+        "Gender": "MALE"
+      },
+      {
+        "id": 30,
+        "VoterId": "TRW0226647",
+        "Name": "Constancio Cyril D'Souza",
+        "Father Name": "Cyril D'Souza",
+        "House Number": 24,
+        "Age": 49,
+        "Gender": "MALE"
+      },
+      {
+        "id": 31,
+        "VoterId": "TRW0227157",
+        "Name": "Sabestiao D'Souza",
+        "Father Name": "Gabriel D'Souza",
+        "House Number": 27,
+        "Age": 82,
+        "Gender": "MALE"
+      },
+      {
+        "id": 32,
+        "VoterId": "TRW0227165",
+        "Name": "Sabestian D'Souza",
+        "Husband Name": "Sabestiao D'Souza",
+        "House Number": 27,
+        "Age": 75,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 33,
+        "VoterId": "TRW0227173",
+        "Name": "Michael D'Souza",
+        "Father Name": "Sabestiao D'Souza",
+        "House Number": 27,
+        "Age": 47,
+        "Gender": "MALE"
+      },
+      {
+        "id": 34,
+        "VoterId": "TRW0226811",
+        "Name": "Basteao Manuel Fernandes",
+        "Father Name": "Manuel Fernandes",
+        "House Number": 28,
+        "Age": 68,
+        "Gender": "MALE"
+      },
+      {
+        "id": 35,
+        "VoterId": "TRW0226803",
+        "Name": "Pascoal Basteao Fernandes",
+        "Husband Name": "Basteao Fernandes",
+        "House Number": 28,
+        "Age": 64,
+        "Gender": "FEMALE"
+      },
+      {
+        "id": 36,
+        "VoterId": "TRW0312249",
+        "Name": "Nestor Manual Fernandes",
+        "Father Name": "Sabastiao Fernandes",
+        "House Number": 28,
+        "Age": 30,
+        "Gender": "MALE"
+      }
+    ]}
+]
