@@ -27,8 +27,8 @@
 
 - Create a .env file and add these two configuration
   ```
-  PORT = 8000
-  MONGO_URL = Your MongoDB URI`
+  PORT = <YOUR PORT NUMBER>
+  MONGO_URL = <YOUR MONGODB URI>
   ```
 - Use NodeJS version 16LTS or higher
 - Use package manager such yarn or npm as per your choice:
