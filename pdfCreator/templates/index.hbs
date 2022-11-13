@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">
+            {{Name}} Relationship Information Data
+        </h1>
+        <h3>Name : {{Name}}</h3>
+        <h3>Age : {{Age}}</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>VoterId</th>
+                    <th>Name</th>
+                    <th>Relation</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each relations as | user |}}
+                    <tr>
+                        <td>{{user.voterid}}</td>
+                        <td>{{user.name}}</td>
+                        <td>{{user.relation}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

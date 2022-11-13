@@ -1,10 +1,11 @@
 const express = require("express");
 const Electoral = require("../models/electoral");
 const Place = require("../models/place");
+const { createPdf } = require("../pdfCreator");
 const router = express.Router();
 
 let arr;
-const graph = [];
+let graph = [];
 let house = -1;
 let personName = "";
 let personAge = -1;
@@ -52,7 +53,7 @@ function findNode(name, othername, type) {
   }
 }
 
-const relation = [];
+let relation = [];
 const levelRelation = ["", "Grand", "Great Grand"];
 
 function childRelation(name, level, down) {
@@ -61,6 +62,7 @@ function childRelation(name, level, down) {
   }
   for (let i = 0; i < graph[name]["Child"].length; i++) {
     relation.push({
+      voterid: graph[graph[name]["Child"][i]]["VoterId"],
       name: graph[name]["Child"][i],
       relation: `${levelRelation[level]}${down}`,
     });
@@ -72,13 +74,14 @@ function findRelation(name) {
   let up = "Son";
   let down = "Father";
   let level = "Wife";
-  if (graph[name]["Gender"] === "Female") {
+  if (graph[name]["Gender"] === "FEMALE") {
     up = "Daughter";
     down = "Mother";
     level = "Husband";
   }
   if (graph[name][level]) {
     relation.push({
+      voterid: graph[graph[name][level]]["VoterId"],
       name: graph[name][level],
       relation: level,
     });
@@ -88,6 +91,7 @@ function findRelation(name) {
   for (let i = 0; i < 3; i++) {
     if (graph[traName]["Father"]) {
       relation.push({
+        voterid: graph[graph[traName]["Father"]]["VoterId"],
         name: graph[traName]["Father"],
         relation: `${levelRelation[i]}${up}`,
       });
@@ -104,6 +108,11 @@ function findRelation(name) {
 router.post("/", async (req, res) => {
   const { VoterId, State, District, Village, Pin_code } = req.body;
   try {
+    relation = [];
+    graph = [];
+    house = -1;
+    personName = "";
+    personAge = -1;
     const placedata = await Place.findOne({
       state: State,
       district: District,
@@ -115,7 +124,7 @@ router.post("/", async (req, res) => {
     const data = electoraldata.data;
     arr = data;
     for (let i = 0; i < arr.length; i++) {
-      if (arr[i]["VoterId"] === VoterId) {
+      if (arr[i]["VoterId"].toLowerCase() === VoterId.toLowerCase()) {
         house = arr[i]["House Number"];
         personName = arr[i]["Name"];
         personAge = arr[i]["Age"];
@@ -139,6 +148,12 @@ router.post("/", async (req, res) => {
     }
 
     findRelation(personName);
+    const pdfData = {
+      Name: personName,
+      Age: personAge,
+      relations: relation,
+    };
+    createPdf(pdfData);
     return res.status(200).send({
       Name: personName,
       Age: personAge,
